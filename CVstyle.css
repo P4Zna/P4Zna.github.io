@@ -1,0 +1,201 @@
+header, footer{
+    color: aliceblue;
+    background-color:#202243;
+    text-align: center;}
+
+header{
+        padding: 20px;
+        font-style: italic;
+        font-family: 'Georgia';}
+
+.emphasize{
+           font-weight: bold;}
+
+footer{
+        font-style: italic;
+        font-family: Cambria;
+        padding: 10px;}
+
+section{
+        padding: 25px;
+        background:#d8efff;}
+
+.collapse{
+            display: flex;
+            justify-content: center;}
+
+.carousel-item{
+                display: flex; 
+                font-size: small;
+                padding: 30px;
+                height: 600px;
+                text-align: center;
+                background:#ffffffda;}
+
+.carousel-image{
+                object-fit: contain;
+                max-height: 70%;}
+
+
+
+ @media screen and (max-width: 376px){
+
+        header h3{
+                font-size: 15px;
+        }
+        header h4{
+                font-size: 12px;
+        }
+
+        #PerInfo{
+                font-size: 12px;
+        }
+        #PerInfo h5{
+                font-size: 17px;
+        }
+        #Edu{
+                font-size: 12px;
+        }
+        #Edu h5{
+                font-size: 17px;
+        }
+        #Edu h6{
+                font-size: 15px;
+        }
+
+        .carousel-image{
+                max-height: 70%;
+                max-width: 115%;
+                padding-right: 35px;
+        }  
+
+        .carousel-item{
+                font-size: x-small;
+                height: 450px;
+        }
+        .carousel-item h5{
+                margin-top: 20px;
+        }
+
+        footer{
+                font-size: 11px;
+        }
+                    
+ }
+
+ @media screen and (max-width: 992px){
+
+        header h3{
+                font-size: 21px;
+        }
+        header h4{
+                font-size: 18px;
+        }
+
+        #PerInfo{
+                font-size: 17px;
+        }
+        #PerInfo h5{
+                font-size: 22px;
+        }
+        #Edu{
+                font-size: 17px;
+        }
+        #Edu h5{
+                font-size: 22px;
+        }
+        #Edu h6{
+                font-size: 21px;
+        }
+
+        .carousel-image{
+                max-height: 60%;
+                max-width: 100%;
+        } 
+        
+        .carousel-item h5{
+                margin-top: 20px;
+        }
+
+ }
+
+
+ @media screen and (max-width: 768px){
+
+        header h3{
+                font-size: 19px;
+        }
+        header h4{
+                font-size: 16px;
+        }
+
+        #PerInfo{
+                font-size: 15px;
+        }
+        #PerInfo h5{
+                font-size: 20px;
+        }
+        #Edu{
+                font-size: 15px;
+        }
+        #Edu h5{
+                font-size: 20px;
+        }
+        #Edu h6{
+                font-size: 19px;
+        }
+
+        .carousel-image{
+                max-height: 60%;
+                max-width: 100%;
+        } 
+        
+        .carousel-item h5{
+                margin-top: 20px;
+        }
+
+ }
+
+ @media screen and (max-width: 576px){
+
+        header h3{
+                font-size: 16px;
+        }
+        header h4{
+                font-size: 13px;
+        }
+
+        #PerInfo{
+                font-size: 13px;
+        }
+        #PerInfo h5{
+                font-size: 18px;
+        }
+        #Edu{
+                font-size: 13px;
+        }
+        #Edu h5{
+                font-size: 18px;
+        }
+        #Edu h6{
+                font-size: 16px;
+        }
+
+        .carousel-image{
+                max-height: 60%;
+                max-width: 115%;
+        }  
+
+        .carousel-item{
+                font-size: x-small;
+                height: 450px;
+        }
+        .carousel-item h5{
+                margin-top: 20px;
+        }
+
+        footer{
+                font-size: 12px;
+        }
+                    
+ }
